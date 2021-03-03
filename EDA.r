@@ -1,6 +1,8 @@
 
 #_____________________________________________________________________________
 #Q1-a
+#Calculate Skewness, Kurtosis using R/Python code & draw inferences on the following data.
+#(dataset is given in seperate folder)
 #_____________________________________________________________________________
 
 install.packages("readr")   #installing packages and including in library
@@ -48,6 +50,9 @@ range_dist =  max(q1_csv$dist) - min(q1_csv$dist)
 print(range_dist)
 #_____________________________________________________________________________
 #Q1-b
+#Calculate Skewness, Kurtosis using R/Python code & draw inferences on the following data.
+#(dataset is given in seperate folder)
+#Top Speed (SP) and Weight (WT)
 #_____________________________________________________________________________
 
 #loading csv file into R
@@ -88,6 +93,10 @@ print(range_WT)
 
 #_____________________________________________________________________________
 #Q3
+#Below are the scores obtained by a student in tests 
+#34,36,36,38,38,39,39,40,40,41,41,41,41,42,42,45,49,56
+#Find mean, median, variance, standard deviation.
+
 #_____________________________________________________________________________
 
 #storing student scores in a array called score
