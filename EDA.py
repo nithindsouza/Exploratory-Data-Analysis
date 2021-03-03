@@ -1,5 +1,7 @@
 #_____________________________________________________________________________
 #Q1-a
+#Calculate Skewness, Kurtosis using R/Python code & draw inferences on the following data.
+#(dataset is given in seperate folder please refer)
 #_____________________________________________________________________________
 # importing packages needed for problem
 import pandas as pd
@@ -47,8 +49,10 @@ range_dist = max(q1_csv.dist) - min(q1_csv.dist)
 print("range of dist", range_dist)
 
 
-print("#####################################################################")
-      
+print("##############################Q2####################################")
+#Top Speed (SP) and Weight (WT) 
+#Calculate Skewness, Kurtosis using R/Python code & draw inferences on the following data.
+#(dataset is given in seperate folder please refer)
       
 #importing data set required for analysis
 q2_csv = pd.read_csv("C:\\Users\\hp\\Downloads\\Statistical Datasets\\Q2_b.csv")
